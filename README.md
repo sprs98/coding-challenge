@@ -27,7 +27,7 @@ var array = [34, 203, 16, 46, 34, 432, 342, 124, 33, 188, 12];
 ## Problem 5 (advanced)
 Imagine that you're wanting to withdraw cash from the bank to cover specific costs. You want to withdraw the exact dollar amount, using the largest bills possible. For example, if the cost you were trying to cover is $1,745, you would need to withdraw 17 $100 bills, 2 $20 bills and 1 $5 bill. We'll leave change (anything less than a dollar) out of it for the sake of the exercise.
 
-To solve this, write a function that takes one argument, `cost` and returns an object with the bill breakdown. For example, the object returned for $1,745, would like this:
+To solve this, write a function that takes one argument, `cost` and returns an object with the bill breakdown. For example, the object returned for $1,745, would like look this:
 
 ```JavaScript
 {
