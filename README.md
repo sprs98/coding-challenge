@@ -1,4 +1,4 @@
-# Project Shift Coding Challenge
+# Project Shift Coding Challenge!
 
 First of all, this isn't a pass/fail challenge - get as far as you can. Some may find this difficult and others may find it rudimentary. We are merely interested in seeing what previous experience you have. Please limit your use of google to syntax and now answers.
 
