@@ -54,6 +54,6 @@ To solve this, write a function that takes one argument, `cost` and returns an o
 {
   100: 17,
   20: 2,
-  5: 1
+  1: 4
 }
 ```
