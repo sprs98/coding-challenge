@@ -43,7 +43,7 @@ Write some JavaScript to create a new array based on the overlapping items and t
 ['a', 'a', 'c', 'b', 'b'];
 ```
 
-To explain further, the string `'a'` appears 3 times in the frist array and 2 times in the second array. Therefore, there are only 2 overlaps. The string `'c'` appears 1 time in the first array and 2 times in the scrond array. Therefore, there is only 1 overlap. The same pattern follows with `'b'`. Our new array is based on those overlaps.
+To explain further, the string `'a'` appears 3 times in the first array and 2 times in the second array. Therefore, there are only 2 overlaps. The string `'c'` appears 1 time in the first array and 2 times in the second array. Therefore, there is only 1 overlap. The same pattern follows with `'b'`. Our new array is based on those overlaps.
 
 ## Problem 7
 Imagine that you're wanting to withdraw cash from the bank to cover specific costs. You want to withdraw the exact dollar amount, using the largest bills possible. For example, if the cost you were trying to cover is $1,745, you would need to withdraw 17 $100 bills, 2 $20 bills and 1 $5 bill. We'll leave change (anything less than a dollar) out of it for the sake of the exercise.
