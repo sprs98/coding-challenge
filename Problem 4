@@ -1,0 +1,17 @@
+
+public class ProblemFour {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int total = 0;
+		int[] array = {34, 203, 16, 46, 34, 432, 342, 124, 33, 188, 12};
+	
+		for(int i = 0; i < array.length; i++ ) {
+			total += array[i];
+			System.out.println(" You just added "+ array[i] + " your new total is now "+ total );
+		}
+		
+		System.out.println("You added " + array.length + " numbers" + " Your final average is " + total/array.length );
+	}
+
+}
