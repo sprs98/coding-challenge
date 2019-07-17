@@ -1,0 +1,29 @@
+//Prints out the numbers that are duplicates between the two arrays I just couldn't quite figure out how to print
+//each one the number of times it overlapped
+
+
+import java.util.HashSet;
+
+public class ProblemSix {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] arrayOne = {"a", "b", "c", "a", "a", "b", "d"};
+		String[] arrayTwo = {"a", "b", "b", "a", "e", "c", "c", "g"};
+
+		HashSet<String> commonNumbers = new HashSet<String>();
+
+		for (int i = 0; i < arrayOne.length; i++) {
+			for (int z = 0; z < arrayTwo.length; z++) {
+				if (arrayOne[i].equals(arrayTwo[z])) {
+					commonNumbers.add(arrayOne[i]);
+				}
+			}
+		}
+
+		
+		System.out.println(commonNumbers);
+
+	}
+}
