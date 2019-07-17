@@ -1,0 +1,12 @@
+public class ProblemTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] Bands = {"Kiss", "Aerosmith", "ACDC", "Led Zeppelin", "Nickelback"};
+
+		for(int i =0; i< Bands.length; i++) {
+			System.out.println("I love " + Bands[i]);
+		}
+	}
+}
