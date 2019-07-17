@@ -1,0 +1,19 @@
+public class ProblemThree {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] Bands = {"Kiss", "Aerosmith", "ACDC", "Led Zeppelin", "Nickelback"};
+	
+		for(int i =0; i< Bands.length; i++) {
+			
+			if(Bands[i].equals("Nickelback")) {
+				System.out.println("I DON'T love Nickelback");
+			}
+			else {
+			System.out.println("I love " + Bands[i]);
+			}
+		}
+	}
+
+}
