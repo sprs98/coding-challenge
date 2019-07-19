@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class ProblemSeven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in); 
+		
+		System.out.println("How much money would you like to withdraw? ");
+		
+		int userValue= scan.nextInt();
+		
+		int[] moneyValues= {100,50,20,10,5,1};
+		
+
+			for(int i=0;i<moneyValues.length && userValue!=0;i++)
+			{
+				if(userValue>=moneyValues[i])
+					System.out.println("Number of $"+moneyValues[i]+"'s"+" :"+userValue/moneyValues[i]);
+				userValue=userValue%moneyValues[i];
+			}
+	}
+}
